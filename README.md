@@ -21,6 +21,7 @@ You can test them using the following commands:
 # python3 Detector.py "./filament-1.9.9" Filament_OSSList.txt
 # python3 Detector.py "./turicreate-6.4.1" Turicreate_OSSList.txt
 ```
+- [4th, Nov 2023] Currently, I found a critical issue related to the dataset of V1SCAN-public: almost half of the CVE data disappeared during the refactoring phase. Therefore, when you test, you may get different results from the paper. Although it may take some time, I will work on supplementing the database. However, there is no problem with the code algorithm itself, so you can still run it and check the results.
 
 ### 2. Prepare the testing program (and its OSS components list)
 Suppose we want to scan the Filament v1.9.9.  
